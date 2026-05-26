@@ -166,38 +166,6 @@ const examples = [
       fr: "Aurélien Nicosia"
     },
     title: {
-      en: "AI-use rule for a take-home assignment",
-      fr: "Règle d'usage de l'IA pour un devoir maison"
-    },
-    idea: {
-      en: "A plain-language AI-use rule for a take-home data analysis assignment.",
-      fr: "Une règle d'usage de l'IA, en langage clair, pour un devoir maison d'analyse de données."
-    },
-    value: {
-      en: "It helps students know what support is allowed and gives instructors a disclosure structure.",
-      fr: "Elle aide les étudiants à comprendre l'aide permise et donne à la personne enseignante une structure de déclaration."
-    },
-    adapt: {
-      en: "Adjust the permitted uses and monitoring strategy to match the learning objective and class size.",
-      fr: "Adapter les usages permis et la stratégie de suivi à l'objectif d'apprentissage et à la taille du groupe."
-    },
-    links: [
-      {
-        href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/ai-use-rule-assignment.md",
-        label: {
-          en: "View material",
-          fr: "Voir le matériel"
-        }
-      }
-    ]
-  },
-  {
-    category: "assessment",
-    author: {
-      en: "Aurélien Nicosia",
-      fr: "Aurélien Nicosia"
-    },
-    title: {
       en: "Mandatory AI use in a statistics assignment",
       fr: "Usage obligatoire de l'IA dans un devoir de statistique"
     },
@@ -233,38 +201,6 @@ const examples = [
         label: {
           en: "View article",
           fr: "Voir l'article"
-        }
-      }
-    ]
-  },
-  {
-    category: "activity",
-    author: {
-      en: "Workshop facilitation",
-      fr: "Animation de l'atelier"
-    },
-    title: {
-      en: "Prompt-to-verification classroom activity",
-      fr: "Activité consigne-vérification"
-    },
-    idea: {
-      en: "A short routine where participants ask AI for a draft, then separate useful output from unchecked output.",
-      fr: "Une courte routine où les personnes participantes demandent un brouillon à l'IA, puis distinguent ce qui est utile de ce qui reste non vérifié."
-    },
-    value: {
-      en: "It makes expert review concrete and works as a classroom routine or workshop warm-up.",
-      fr: "Elle rend la révision experte concrète et fonctionne comme routine de classe ou activité de démarrage en atelier."
-    },
-    adapt: {
-      en: "Reuse the activity sheet as a 10 to 20 minute exercise with any topic participants know well.",
-      fr: "Reprendre la fiche comme activité de 10 à 20 minutes avec n'importe quel sujet bien connu des personnes participantes."
-    },
-    links: [
-      {
-        href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/prompt-to-verification-activity.md",
-        label: {
-          en: "View material",
-          fr: "Voir le matériel"
         }
       }
     ]
