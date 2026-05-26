@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI in Teaching Gallery | Galerie IA et enseignement</title>
+    <meta name="description" content="Bilingual voluntary gallery for SSC 2026 AI and Education Workshop examples.">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="top-row">
+          <p class="eyebrow" data-i18n="eyebrow">SSC 2026 AI and Education Workshop</p>
+          <div class="language-toggle" aria-label="Language selection">
+            <button class="language-button active" type="button" data-lang="en">English</button>
+            <button class="language-button" type="button" data-lang="fr">Français</button>
+          </div>
+        </div>
+        <h1 data-i18n="title">AI in Teaching Gallery</h1>
+        <p class="lead" data-i18n="lead">
+          A voluntary collection of prompts, draft activities, AI-use rules,
+          synthetic datasets, code excerpts, and next steps from the workshop.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="notice" aria-labelledby="sharing-rules">
+        <h2 id="sharing-rules" data-i18n="sharingTitle">Sharing rules</h2>
+        <ul>
+          <li data-i18n="sharing1">Sharing is voluntary.</li>
+          <li data-i18n="sharing2">Drafts and unfinished ideas are welcome.</li>
+          <li data-i18n="sharing3">Do not include identifiable student data, confidential data, or sensitive material.</li>
+          <li data-i18n="sharing4">Public sharing beyond the workshop requires explicit consent.</li>
+        </ul>
+      </section>
+
+      <section class="toolbar" aria-label="Gallery filters" data-i18n-attr="aria-label:filtersLabel">
+        <button class="filter-button active" type="button" data-filter="all" data-filter-label="all">All</button>
+        <button class="filter-button" type="button" data-filter="activity" data-filter-label="activity">Activities</button>
+        <button class="filter-button" type="button" data-filter="assessment" data-filter-label="assessment">Assessment</button>
+        <button class="filter-button" type="button" data-filter="assistant" data-filter-label="assistant">Personalized AI</button>
+        <button class="filter-button" type="button" data-filter="dataset" data-filter-label="dataset">Synthetic data</button>
+      </section>
+
+      <section class="gallery-grid" id="gallery" aria-label="Gallery examples" data-i18n-attr="aria-label:galleryLabel"></section>
+
+      <section class="contribution" aria-labelledby="contribute">
+        <h2 id="contribute" data-i18n="contributionTitle">Contribution format</h2>
+        <p data-i18n="contributionText">
+          A short contribution can name the course context, the teaching need,
+          the object produced, the prompt or approach, one important correction,
+          and the next step.
+        </p>
+        <div class="contribution-actions">
+          <a class="primary-link" href="https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/issues/new?template=gallery-contribution.yml" data-i18n="contributionIssueLink">Propose a contribution on GitHub</a>
+          <a href="contribution_template.md" data-i18n="contributionTemplateLink">Open the contribution template</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footer">Facilitator seed examples are drafts until replaced with final workshop examples.</p>
+    </footer>
+
+    <script src="assets/gallery.js"></script>
+  </body>
+</html>

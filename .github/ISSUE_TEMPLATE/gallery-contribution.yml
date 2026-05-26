@@ -1,0 +1,105 @@
+name: Gallery contribution / Contribution à la galerie
+description: Propose a voluntary example for the AI in Teaching Gallery.
+title: "[Gallery contribution]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a contribution. Please do not include identifiable student data, confidential data, proprietary material, or sensitive information.
+
+        Merci de proposer une contribution. N'incluez pas de données étudiantes identifiables, de données confidentielles, de matériel propriétaire ou d'information sensible.
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language / Langue
+      options:
+        - English
+        - Français
+        - Bilingual / Bilingue
+    validations:
+      required: true
+
+  - type: input
+    id: contribution_title
+    attributes:
+      label: Title / Titre
+      description: Short descriptive title. / Titre court et descriptif.
+    validations:
+      required: true
+
+  - type: input
+    id: contributor
+    attributes:
+      label: Contributor / Personne contributrice
+      description: Name or group name, only if you want it shown. / Nom ou nom du groupe, seulement si vous voulez qu'il soit affiché.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Course or context / Cours ou contexte
+      description: What course, audience, or teaching situation is this connected to?
+    validations:
+      required: true
+
+  - type: textarea
+    id: need
+    attributes:
+      label: Teaching need / Besoin pédagogique
+      description: What problem or opportunity were you trying to address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: tool
+    attributes:
+      label: Tool used / Outil utilisé
+      description: Which tool, assistant, workflow, or platform did you use?
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: Prompt or approach / Consigne ou approche
+      description: Paste the prompt, summarize the approach, or describe the workflow.
+
+  - type: textarea
+    id: artifact
+    attributes:
+      label: Object produced / Objet produit
+      description: What did you create or improve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: review
+    attributes:
+      label: Important check or correction / Vérification ou correction importante
+      description: What did you need to verify, correct, simplify, or remove?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reuse
+    attributes:
+      label: Reuse possibility / Possibilité de réutilisation
+      description: How could this be reused or adapted in another course or activity?
+
+  - type: textarea
+    id: next
+    attributes:
+      label: Next step / Prochaine étape
+      description: What would need to happen before this could be used with students?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: consent
+    attributes:
+      label: Sharing consent / Consentement au partage
+      options:
+        - Share only during the workshop. / Partager seulement pendant l'atelier.
+        - Share in the public gallery without my name. / Partager dans la galerie publique sans mon nom.
+        - Share in the public gallery with my name. / Partager dans la galerie publique avec mon nom.
+        - Do not share. / Ne pas partager.
+    validations:
+      required: true
