@@ -178,6 +178,52 @@ const examples = [
     ]
   },
   {
+    category: "assessment",
+    author: {
+      en: "Aurélien seed example",
+      fr: "Exemple de départ d'Aurélien"
+    },
+    title: {
+      en: "Mandatory AI use in a statistics assignment",
+      fr: "Usage obligatoire de l'IA dans un devoir de statistique"
+    },
+    idea: {
+      en: "A statistics and R assignment where LLM use is required, structured, and assessed as part of the work.",
+      fr: "Un devoir de statistique et de R où l'usage des LLM est obligatoire, structuré et évalué comme partie du travail."
+    },
+    value: {
+      en: "It shifts the focus from detection to design: AI use becomes visible through code, prompts, metadata, reproducible examples, fallbacks, and a rubric.",
+      fr: "On passe de la détection au design pédagogique: l'usage de l'IA devient visible par le code, les consignes, les métadonnées, les exemples reproductibles, les modes de secours et la grille d'évaluation."
+    },
+    adapt: {
+      en: "Reuse the pattern at smaller scale: require AI for one bounded interpretive step, separate computation from AI-generated text, and assess verification, disclosure, and privacy.",
+      fr: "Reprendre le patron à plus petite échelle: rendre l'IA obligatoire pour une étape interprétative bornée, séparer le calcul du texte généré, puis évaluer la vérification, la déclaration et la confidentialité."
+    },
+    links: [
+      {
+        href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/mandatory-ai-assignment-contextual-statistics.md",
+        label: {
+          en: "View material",
+          fr: "Voir le matériel"
+        }
+      },
+      {
+        href: "https://github.com/AurelienNicosiaULaval/contextual-statistics-with-llm",
+        label: {
+          en: "View repository",
+          fr: "Voir le dépôt"
+        }
+      },
+      {
+        href: "https://jds-online.org/journal/JDS/article/1474/info",
+        label: {
+          en: "View article",
+          fr: "Voir l'article"
+        }
+      }
+    ]
+  },
+  {
     category: "activity",
     author: {
       en: "Facilitator seed example",

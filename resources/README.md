@@ -15,6 +15,7 @@ Current materials:
 - `workshop-gpt.md`: setup notes for a bilingual workshop or course assistant.
 - `course-ai-instructions.md`: template for course-specific AI assistant instructions.
 - `ai-use-rule-assignment.md`: template for an AI-use rule in a take-home data analysis assignment.
+- `mandatory-ai-assignment-contextual-statistics.md`: example of a statistics assignment where AI use is mandatory, structured, and assessed.
 - `prompt-to-verification-activity.md`: short activity for comparing and verifying AI outputs.
 
 <a id="francais"></a>
@@ -30,4 +31,5 @@ Matériel actuel:
 - `workshop-gpt.md`: notes de configuration pour un assistant bilingue d'atelier ou de cours.
 - `course-ai-instructions.md`: modèle de directive pour une IA personnalisée de cours.
 - `ai-use-rule-assignment.md`: modèle de règle d'usage de l'IA pour un devoir maison d'analyse de données.
+- `mandatory-ai-assignment-contextual-statistics.md`: exemple de devoir de statistique où l'usage de l'IA est obligatoire, structuré et évalué.
 - `prompt-to-verification-activity.md`: courte activité pour comparer et vérifier des sorties d'IA.
