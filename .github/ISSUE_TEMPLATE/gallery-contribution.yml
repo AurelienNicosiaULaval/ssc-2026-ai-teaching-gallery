@@ -34,63 +34,55 @@ body:
       label: Contributor / Personne contributrice
       description: Name or group name, only if you want it shown. / Nom ou nom du groupe, seulement si vous voulez qu'il soit affiché.
 
-  - type: textarea
-    id: context
+  - type: dropdown
+    id: category
     attributes:
-      label: Course or context / Cours ou contexte
-      description: What course, audience, or teaching situation is this connected to?
+      label: Category / Catégorie
+      options:
+        - Activity / Activité
+        - Assessment / Évaluation
+        - Personalized AI / IA personnalisée
+        - Prompt / Consigne
+        - Synthetic data / Données synthétiques
+        - Other / Autre
     validations:
       required: true
 
   - type: textarea
-    id: need
+    id: idea
     attributes:
-      label: Teaching need / Besoin pédagogique
-      description: What problem or opportunity were you trying to address?
+      label: The idea / L'idée
+      description: What is the example? Include the course or teaching context if useful.
     validations:
       required: true
 
   - type: textarea
-    id: tool
+    id: value
     attributes:
-      label: Tool used / Outil utilisé
-      description: Which tool, assistant, workflow, or platform did you use?
-
-  - type: textarea
-    id: approach
-    attributes:
-      label: Prompt or approach / Consigne ou approche
-      description: Paste the prompt, summarize the approach, or describe the workflow.
-
-  - type: textarea
-    id: artifact
-    attributes:
-      label: Object produced / Objet produit
-      description: What did you create or improve?
+      label: Why it helps / Ce que ça apporte
+      description: Why would this be useful for teaching, learning, assessment, preparation, or reuse?
     validations:
       required: true
 
   - type: textarea
-    id: review
+    id: adapt
     attributes:
-      label: Important check or correction / Vérification ou correction importante
-      description: What did you need to verify, correct, simplify, or remove?
+      label: Adapt it / À réutiliser
+      description: What could another instructor reuse, adapt, or try?
     validations:
       required: true
 
   - type: textarea
-    id: reuse
+    id: material
     attributes:
-      label: Reuse possibility / Possibilité de réutilisation
-      description: How could this be reused or adapted in another course or activity?
+      label: Material / Matériel
+      description: Add a prompt, short text, link, file description, or note about what material should be shared.
 
   - type: textarea
-    id: next
+    id: note
     attributes:
-      label: Next step / Prochaine étape
-      description: What would need to happen before this could be used with students?
-    validations:
-      required: true
+      label: Optional note / Note optionnelle
+      description: Anything the facilitators should know before adding it to the public gallery?
 
   - type: dropdown
     id: consent

@@ -2,7 +2,7 @@ const translations = {
   en: {
     eyebrow: "SSC 2026 AI and Education Workshop",
     title: "AI in Teaching Gallery",
-    lead: "A voluntary collection of reusable prompts, teaching drafts, AI-use rules, activities, and verification routines from the workshop.",
+    lead: "A gallery of reusable teaching ideas, prompts, AI-use rules, activities, and workshop artifacts.",
     sharingTitle: "Sharing rules",
     sharing1: "Sharing is voluntary.",
     sharing2: "Drafts and unfinished ideas are welcome.",
@@ -11,15 +11,15 @@ const translations = {
     filtersLabel: "Gallery filters",
     galleryLabel: "Gallery examples",
     contributionTitle: "Contribution format",
-    contributionText: "A short contribution can name the course context, the reusable material, the check that still matters, and the next step.",
+    contributionText: "Propose an example by naming the idea, why it helps, what others can reuse, and what should be adapted.",
     contributionIssueLink: "Propose a contribution on GitHub",
     contributionTemplateLink: "Open the contribution template",
-    footer: "Facilitator seed examples are drafts. Each card links to reusable material that can be adapted.",
+    footer: "Each card is an invitation to reuse, adapt, and improve a concrete teaching artifact.",
     fields: {
-      context: "Context",
-      reuse: "Reusable material",
-      check: "Important check",
-      resource: "Open material"
+      idea: "The idea",
+      value: "Why it helps",
+      adapt: "Adapt it",
+      resource: "Material"
     },
     filters: {
       all: "All",
@@ -38,7 +38,7 @@ const translations = {
   fr: {
     eyebrow: "Atelier SSC 2026 IA et enseignement",
     title: "Galerie IA et enseignement",
-    lead: "Une collection volontaire de consignes réutilisables, brouillons pédagogiques, règles d'usage de l'IA, activités et routines de vérification issus de l'atelier.",
+    lead: "Une galerie d'idées pédagogiques, consignes, règles d'usage de l'IA, activités et artéfacts réutilisables.",
     sharingTitle: "Règles de partage",
     sharing1: "Le partage est volontaire.",
     sharing2: "Les brouillons et idées inachevées sont bienvenus.",
@@ -47,15 +47,15 @@ const translations = {
     filtersLabel: "Filtres de la galerie",
     galleryLabel: "Exemples de la galerie",
     contributionTitle: "Format de contribution",
-    contributionText: "Une courte contribution peut nommer le contexte de cours, le matériel réutilisable, la vérification importante et la prochaine étape.",
+    contributionText: "Proposez un exemple en nommant l'idée, ce que ça apporte, ce que d'autres peuvent reprendre et ce qui doit être adapté.",
     contributionIssueLink: "Proposer une contribution sur GitHub",
     contributionTemplateLink: "Ouvrir le modèle de contribution",
-    footer: "Les exemples facilitateurs sont des brouillons. Chaque carte donne accès à du matériel réutilisable et adaptable.",
+    footer: "Chaque carte invite à reprendre, adapter et améliorer un artéfact pédagogique concret.",
     fields: {
-      context: "Contexte",
-      reuse: "Matériel réutilisable",
-      check: "Vérification importante",
-      resource: "Ouvrir le matériel"
+      idea: "L'idée",
+      value: "Ce que ça apporte",
+      adapt: "À réutiliser",
+      resource: "Matériel"
     },
     filters: {
       all: "Tout",
@@ -84,35 +84,31 @@ const examples = [
       en: "Bilingual workshop GPT",
       fr: "GPT bilingue pour l'atelier"
     },
-    context: {
-      en: "SSC 2026 AI and Education Workshop, with participants working in English or French.",
-      fr: "Atelier SSC 2026 IA et enseignement, avec des personnes participantes qui travaillent en français ou en anglais."
+    idea: {
+      en: "A bilingual workshop GPT that helps participants draft prompts, teaching resources, AI-use rules, and gallery contributions.",
+      fr: "Un GPT bilingue qui aide les personnes participantes à créer des consignes, ressources pédagogiques, règles d'usage de l'IA et contributions à la galerie."
     },
-    review: {
-      en: "Test in both languages, check that it does not invent missing workshop links or policy details, and confirm that it keeps privacy and expert review visible.",
-      fr: "Tester dans les deux langues, vérifier qu'il n'invente pas les liens ou détails de politique manquants, et confirmer qu'il garde la confidentialité et la révision experte visibles."
+    value: {
+      en: "It gives everyone a shared starting point while keeping bilingual support, privacy, and expert review visible.",
+      fr: "Il donne un point de départ commun tout en gardant visibles le bilinguisme, la confidentialité et la révision experte."
     },
-    reuse: {
-      en: "Adapt the same structure to a course-specific assistant by changing the course context, allowed support, assessment rules, and verification criteria.",
-      fr: "Adapter la même structure à une IA personnalisée de cours en modifiant le contexte, l'aide permise, les règles d'évaluation et les critères de vérification."
-    },
-    next: {
-      en: "Use it during the comparison activity and update the participant repository link when the final GitHub URL is available.",
-      fr: "L'utiliser pendant l'activité de comparaison et ajouter le lien final vers le dépôt participant lorsque l'URL GitHub sera disponible."
+    adapt: {
+      en: "Reuse the setup notes to create a course or workshop assistant with your own context, rules, and resources.",
+      fr: "Reprendre les notes de configuration pour créer une IA de cours ou d'atelier avec votre propre contexte, vos règles et vos ressources."
     },
     links: [
       {
         href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/workshop-gpt.md",
         label: {
-          en: "Reusable setup notes",
-          fr: "Notes de configuration réutilisables"
+          en: "View material",
+          fr: "Voir le matériel"
         }
       },
       {
         href: "https://chatgpt.com/g/g-6a15b5fba1288191a1247c3174ee0edd-ai-education-workshop-assistant",
         label: {
-          en: "Open the workshop GPT",
-          fr: "Ouvrir le GPT du workshop"
+          en: "Open example",
+          fr: "Ouvrir l'exemple"
         }
       }
     ]
@@ -127,28 +123,24 @@ const examples = [
       en: "Course-specific AI starter instructions",
       fr: "Directive de départ pour une IA de cours"
     },
-    context: {
-      en: "Introductory probability or statistics course",
-      fr: "Cours d'introduction à la probabilité ou à la statistique"
+    idea: {
+      en: "A reusable instruction block for a course assistant that supports students without becoming an answer key.",
+      fr: "Un bloc de directive réutilisable pour une IA de cours qui soutient les étudiants sans devenir un corrigé."
     },
-    review: {
-      en: "Check that the assistant asks guiding questions, avoids giving full solutions too early, and reminds students to disclose use when required.",
-      fr: "Vérifier que l'assistant pose des questions-guides, évite de donner trop vite des solutions complètes et rappelle la déclaration d'usage lorsque requise."
+    value: {
+      en: "It clarifies what help is allowed, what is off-limits, and how students should verify their work.",
+      fr: "Il clarifie l'aide permise, les limites à respecter et la façon dont les étudiants doivent vérifier leur travail."
     },
-    reuse: {
-      en: "Reusable across courses after changing the disciplinary context and the assessment rules.",
-      fr: "Réutilisable dans plusieurs cours après adaptation du contexte disciplinaire et des règles d'évaluation."
-    },
-    next: {
-      en: "Replace this seed with Aurélien's final example before the workshop.",
-      fr: "Remplacer cet exemple par l'exemple final d'Aurélien avant l'atelier."
+    adapt: {
+      en: "Change the course context, level, software, assessment rules, and disclosure expectations.",
+      fr: "Adapter le contexte du cours, le niveau, le logiciel, les règles d'évaluation et les attentes de déclaration."
     },
     links: [
       {
         href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/course-ai-instructions.md",
         label: {
-          en: "Open instruction template",
-          fr: "Ouvrir le modèle de directive"
+          en: "View material",
+          fr: "Voir le matériel"
         }
       }
     ]
@@ -163,28 +155,24 @@ const examples = [
       en: "AI-use rule for a take-home assignment",
       fr: "Règle d'usage de l'IA pour un devoir maison"
     },
-    context: {
-      en: "Undergraduate data analysis assignment",
-      fr: "Devoir d'analyse de données au premier cycle"
+    idea: {
+      en: "A plain-language AI-use rule for a take-home data analysis assignment.",
+      fr: "Une règle d'usage de l'IA, en langage clair, pour un devoir maison d'analyse de données."
     },
-    review: {
-      en: "Check alignment with the learning objective, class size, grading workload, and institutional expectations.",
-      fr: "Vérifier l'alignement avec l'objectif d'apprentissage, la taille du groupe, la charge de correction et les attentes institutionnelles."
+    value: {
+      en: "It helps students know what support is allowed and gives instructors a disclosure structure.",
+      fr: "Elle aide les étudiants à comprendre l'aide permise et donne à la personne enseignante une structure de déclaration."
     },
-    reuse: {
-      en: "Reusable as a template for assignments, with different monitoring choices for small, medium, and large groups.",
-      fr: "Réutilisable comme gabarit de devoir, avec des choix de suivi différents selon les petits, moyens et grands groupes."
-    },
-    next: {
-      en: "Adapt to the final assessment example used in the slide deck.",
-      fr: "Adapter à l'exemple d'évaluation final utilisé dans le diaporama."
+    adapt: {
+      en: "Adjust the permitted uses and monitoring strategy to match the learning objective and class size.",
+      fr: "Adapter les usages permis et la stratégie de suivi à l'objectif d'apprentissage et à la taille du groupe."
     },
     links: [
       {
         href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/ai-use-rule-assignment.md",
         label: {
-          en: "Open AI-use rule template",
-          fr: "Ouvrir le modèle de règle"
+          en: "View material",
+          fr: "Voir le matériel"
         }
       }
     ]
@@ -199,28 +187,24 @@ const examples = [
       en: "Prompt-to-verification classroom activity",
       fr: "Activité consigne-vérification"
     },
-    context: {
-      en: "Shared morning activity adaptable to teaching or research",
-      fr: "Activité du matin commun adaptable à l'enseignement ou à la recherche"
+    idea: {
+      en: "A short routine where participants ask AI for a draft, then separate useful output from unchecked output.",
+      fr: "Une courte routine où les personnes participantes demandent un brouillon à l'IA, puis distinguent ce qui est utile de ce qui reste non vérifié."
     },
-    review: {
-      en: "Check timing, clarity for both streams, and whether participants can complete it with their own tools.",
-      fr: "Vérifier le minutage, la clarté pour les deux volets et la faisabilité avec les outils personnels des participants."
+    value: {
+      en: "It makes expert review concrete and works as a classroom routine or workshop warm-up.",
+      fr: "Elle rend la révision experte concrète et fonctionne comme routine de classe ou activité de démarrage en atelier."
     },
-    reuse: {
-      en: "Reusable as a quick classroom routine before accepting AI-generated explanations, code, or examples.",
-      fr: "Réutilisable comme routine courte en classe avant d'accepter des explications, du code ou des exemples générés par IA."
-    },
-    next: {
-      en: "Use participant feedback to refine the activity after the workshop.",
-      fr: "Utiliser les retours des participants pour raffiner l'activité après l'atelier."
+    adapt: {
+      en: "Reuse the activity sheet as a 10 to 20 minute exercise with any topic participants know well.",
+      fr: "Reprendre la fiche comme activité de 10 à 20 minutes avec n'importe quel sujet bien connu des personnes participantes."
     },
     links: [
       {
         href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/prompt-to-verification-activity.md",
         label: {
-          en: "Open activity sheet",
-          fr: "Ouvrir la fiche d'activité"
+          en: "View material",
+          fr: "Voir le matériel"
         }
       }
     ]
@@ -335,9 +319,9 @@ function cardTemplate(example) {
             </div>
           </div>
         </div>
-        ${fieldTemplate(dict.fields.context, example.context)}
-        ${fieldTemplate(dict.fields.reuse, example.reuse)}
-        ${fieldTemplate(dict.fields.check, example.review)}
+        ${fieldTemplate(dict.fields.idea, example.idea)}
+        ${fieldTemplate(dict.fields.value, example.value)}
+        ${fieldTemplate(dict.fields.adapt, example.adapt)}
         ${linksTemplate(example)}
       </div>
     </article>

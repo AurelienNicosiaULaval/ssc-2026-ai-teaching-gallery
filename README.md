@@ -8,7 +8,7 @@
 
 This public repository hosts the AI in Teaching Gallery for the SSC 2026 AI and Education Workshop.
 
-The gallery is a voluntary collection of examples created or refined during the workshop. Contributions can include prompts, draft teaching activities, AI-use rules, course-specific assistant instructions, synthetic dataset ideas, verification routines, code excerpts, and realistic next steps.
+The gallery is a voluntary collection of examples created or refined during the workshop. Contributions can include prompts, draft teaching activities, AI-use rules, course-specific assistant instructions, synthetic dataset ideas, verification routines, code excerpts, and reusable next steps.
 
 Site:
 
@@ -52,7 +52,7 @@ The gallery starts with facilitator seed examples. Participant examples will be 
 
 Ce dépôt public héberge la Galerie IA et enseignement pour l'atelier SSC 2026 IA et enseignement.
 
-La galerie est une collection volontaire d'exemples créés ou raffinés pendant l'atelier. Les contributions peuvent inclure des consignes, des brouillons d'activités pédagogiques, des règles d'usage de l'IA, des directives pour une IA personnalisée de cours, des idées de jeux de données synthétiques, des routines de vérification, des extraits de code et des prochaines étapes réalistes.
+La galerie est une collection volontaire d'exemples créés ou raffinés pendant l'atelier. Les contributions peuvent inclure des consignes, des brouillons d'activités pédagogiques, des règles d'usage de l'IA, des directives pour une IA personnalisée de cours, des idées de jeux de données synthétiques, des routines de vérification, des extraits de code et des prochaines étapes réutilisables.
 
 Site:
 

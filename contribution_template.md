@@ -18,64 +18,35 @@ Name or group name, only if you want it shown.
 
 Nom ou nom du groupe, seulement si vous voulez qu'il soit affiché.
 
-## Course or Context | Cours ou contexte
+## Category | Catégorie
 
-What course, audience, or teaching situation is this connected to?
+Activity, assessment, personalized AI, prompt, synthetic data, or other.
 
-À quel cours, public ou contexte d'enseignement cette contribution est-elle liée?
+Activité, évaluation, IA personnalisée, consigne, données synthétiques ou autre.
 
-## Teaching Need | Besoin pédagogique
+## The Idea | L'idée
 
-What problem or opportunity were you trying to address?
+What is the example? Include the course or teaching context if useful.
 
-Quel problème ou quelle occasion vouliez-vous travailler?
+Quel est l'exemple? Incluez le contexte de cours ou d'enseignement si utile.
 
-## Tool Used | Outil utilisé
+## Why It Helps | Ce que ça apporte
 
-Which tool, assistant, workflow, or platform did you use?
+Why would this be useful for teaching, learning, assessment, preparation, or reuse?
 
-Quel outil, assistant, flux de travail ou plateforme avez-vous utilisé?
+Pourquoi est-ce utile pour l'enseignement, l'apprentissage, l'évaluation, la préparation ou la réutilisation?
 
-## Object Produced | Objet produit
+## Adapt It | À réutiliser
 
-What did you create or improve?
+What could another instructor reuse, adapt, or try?
 
-Qu'avez-vous créé ou amélioré?
+Qu'est-ce qu'une autre personne enseignante pourrait reprendre, adapter ou essayer?
 
-Examples | Exemples:
+## Material | Matériel
 
-- prompt | consigne
-- activity draft | brouillon d'activité
-- quiz idea | idée de quiz
-- AI-use rule | règle d'usage de l'IA
-- synthetic dataset | jeu de données synthétique
-- code excerpt | extrait de code
-- course-specific AI instruction set | directive pour une IA personnalisée de cours
-- next step | prochaine étape
+Add a prompt, short text, link, file description, or note about what material should be shared.
 
-## Prompt or Approach | Consigne ou approche
-
-Paste the prompt, summarize the approach, or describe the workflow.
-
-Collez la consigne, résumez l'approche ou décrivez le flux de travail.
-
-## Important Check or Correction | Vérification ou correction importante
-
-What did you need to verify, correct, simplify, or remove?
-
-Qu'avez-vous dû vérifier, corriger, simplifier ou retirer?
-
-## Reuse Possibility | Possibilité de réutilisation
-
-How could this be reused or adapted in another course or activity?
-
-Comment cela pourrait-il être réutilisé ou adapté dans un autre cours ou une autre activité?
-
-## Next Step | Prochaine étape
-
-What would need to happen before this could be used with students?
-
-Que faudrait-il faire avant de pouvoir utiliser cela avec des étudiants?
+Ajoutez une consigne, un court texte, un lien, une description de fichier ou une note sur le matériel à partager.
 
 ## Sharing Consent | Consentement au partage
 

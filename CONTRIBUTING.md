@@ -20,14 +20,11 @@ The form asks for:
 
 - title
 - contributor name or group name, optional
-- course or context
-- teaching need
-- tool used
-- prompt or approach
-- object produced
-- important check or correction
-- reuse possibility
-- next step
+- category
+- the idea
+- why it helps
+- what others can reuse or adapt
+- material to share
 - sharing consent
 
 ### Privacy Rules
@@ -66,14 +63,11 @@ Le formulaire demande:
 
 - titre
 - nom ou nom du groupe, optionnel
-- cours ou contexte
-- besoin pédagogique
-- outil utilisé
-- consigne ou approche
-- objet produit
-- vérification ou correction importante
-- possibilité de réutilisation
-- prochaine étape
+- catégorie
+- l'idée
+- ce que ça apporte
+- ce que d'autres peuvent reprendre ou adapter
+- matériel à partager
 - consentement au partage
 
 ### Règles de confidentialité
