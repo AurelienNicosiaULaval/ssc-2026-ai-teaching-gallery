@@ -359,10 +359,6 @@ function cardTemplate(example) {
           <div class="card-visual ${example.category}" aria-hidden="true">${escapeHTML(initials[example.category])}</div>
           <div>
             <h3>${escapeHTML(text(example.title))}</h3>
-            <div class="card-meta">
-              <span class="tag">${escapeHTML(dict.labels[example.category])}</span>
-              <span class="tag">${escapeHTML(text(example.author))}</span>
-            </div>
           </div>
         </div>
         ${fieldTemplate(dict.fields.idea, example.idea)}
