@@ -120,20 +120,20 @@ const examples = [
       fr: "Aurélien Nicosia"
     },
     title: {
-      en: "Course-specific AI starter instructions",
-      fr: "Directive de départ pour une IA de cours"
+      en: "Course assistant for STT-4230",
+      fr: "Assistant de cours pour STT-4230"
     },
     idea: {
-      en: "A reusable instruction block for a course assistant that supports students without becoming an answer key.",
-      fr: "Un bloc de directive réutilisable pour une IA de cours qui soutient les étudiants sans devenir un corrigé."
+      en: "A concrete course assistant for STT-4230, R pour scientifiques, designed around active learning rather than direct answers.",
+      fr: "Un assistant concret pour le cours STT-4230, R pour scientifiques, conçu autour de l'apprentissage actif plutôt que des réponses directes."
     },
     value: {
-      en: "It clarifies what help is allowed, what is off-limits, and how students should verify their work.",
-      fr: "Il clarifie l'aide permise, les limites à respecter et la façon dont les étudiants doivent vérifier leur travail."
+      en: "It shows how to encode a tutoring stance: guiding questions, mini-challenges, hints before code, explanations, and self-checks.",
+      fr: "Il montre comment encoder une posture pédagogique: questions-guides, mini-défis, indices avant le code, explications et auto-vérification."
     },
     adapt: {
-      en: "Change the course context, level, software, assessment rules, and disclosure expectations.",
-      fr: "Adapter le contexte du cours, le niveau, le logiciel, les règles d'évaluation et les attentes de déclaration."
+      en: "Adapt the role, course content, allowed help, knowledge base, and assessment boundaries to your own course.",
+      fr: "Adapter le rôle, le contenu du cours, l'aide permise, la base de connaissance et les limites d'évaluation à votre propre cours."
     },
     links: [
       {
@@ -141,6 +141,20 @@ const examples = [
         label: {
           en: "View material",
           fr: "Voir le matériel"
+        }
+      },
+      {
+        href: "https://chatgpt.com/g/g-689dc0b2bb348191b77cd4609dfce184-r-pour-scientifiques?ref=mini",
+        label: {
+          en: "Open example",
+          fr: "Ouvrir l'exemple"
+        }
+      },
+      {
+        href: "https://stt4230.rbind.io/",
+        label: {
+          en: "Course material",
+          fr: "Matériel de cours"
         }
       }
     ]
