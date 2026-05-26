@@ -44,7 +44,7 @@ Each gallery card links to reusable material in `resources/`. These files are st
 
 ### Current Status
 
-The gallery starts with facilitator seed examples. Participant examples will be added only with explicit sharing consent.
+The gallery starts with examples prepared for the workshop. Participant examples will be added only with explicit sharing consent.
 
 <a id="francais"></a>
 
@@ -88,4 +88,4 @@ Chaque carte de la galerie mène à du matériel réutilisable dans `resources/`
 
 ### État actuel
 
-La galerie commence avec des exemples de départ préparés par les facilitateurs. Les exemples des personnes participantes seront ajoutés seulement avec un consentement explicite au partage.
+La galerie commence avec des exemples préparés pour l'atelier. Les exemples des personnes participantes seront ajoutés seulement avec un consentement explicite au partage.

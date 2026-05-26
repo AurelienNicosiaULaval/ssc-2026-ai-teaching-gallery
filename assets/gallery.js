@@ -77,8 +77,8 @@ const examples = [
   {
     category: "assistant",
     author: {
-      en: "Aurélien seed example",
-      fr: "Exemple de départ d'Aurélien"
+      en: "Aurélien Nicosia",
+      fr: "Aurélien Nicosia"
     },
     title: {
       en: "Bilingual workshop GPT",
@@ -116,8 +116,8 @@ const examples = [
   {
     category: "assistant",
     author: {
-      en: "Aurélien seed example",
-      fr: "Exemple de départ d'Aurélien"
+      en: "Aurélien Nicosia",
+      fr: "Aurélien Nicosia"
     },
     title: {
       en: "Course-specific AI starter instructions",
@@ -148,8 +148,8 @@ const examples = [
   {
     category: "assessment",
     author: {
-      en: "Aurélien seed example",
-      fr: "Exemple de départ d'Aurélien"
+      en: "Aurélien Nicosia",
+      fr: "Aurélien Nicosia"
     },
     title: {
       en: "AI-use rule for a take-home assignment",
@@ -180,8 +180,8 @@ const examples = [
   {
     category: "assessment",
     author: {
-      en: "Aurélien seed example",
-      fr: "Exemple de départ d'Aurélien"
+      en: "Aurélien Nicosia",
+      fr: "Aurélien Nicosia"
     },
     title: {
       en: "Mandatory AI use in a statistics assignment",
@@ -226,8 +226,8 @@ const examples = [
   {
     category: "activity",
     author: {
-      en: "Facilitator seed example",
-      fr: "Exemple de départ facilitateur"
+      en: "Workshop facilitation",
+      fr: "Animation de l'atelier"
     },
     title: {
       en: "Prompt-to-verification classroom activity",
