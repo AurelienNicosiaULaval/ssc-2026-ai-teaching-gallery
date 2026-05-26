@@ -22,7 +22,7 @@ Personalized workshop assistant:
 
 - `index.html`: the public gallery page.
 - `assets/`: styles and bilingual gallery data.
-- `resources/`: reusable bilingual material linked from the gallery cards.
+- `resources/`: reusable bilingual material linked from the gallery cards, plus optional supporting templates.
 - `contribution_template.md`: plain-text bilingual contribution template.
 - `.github/ISSUE_TEMPLATE/gallery-contribution.yml`: structured GitHub form for new contributions.
 - `CONTRIBUTING.md`: contribution instructions in English and French.
@@ -40,7 +40,7 @@ Please do not include identifiable student data, confidential data, protected in
 
 ### Reuse Material
 
-Each gallery card links to reusable material in `resources/`. These files are starting points, not official policies. Adapt them to your course context, assessment rules, privacy requirements, and institutional expectations.
+Each current gallery card links to reusable material in `resources/`. The folder may also contain supporting templates that are not displayed as gallery cards. These files are starting points, not official policies. Adapt them to your course context, assessment rules, privacy requirements, and institutional expectations.
 
 ### Current Status
 
@@ -66,7 +66,7 @@ Assistant personnalisé de l'atelier:
 
 - `index.html`: page publique de la galerie.
 - `assets/`: styles et données bilingues de la galerie.
-- `resources/`: matériel bilingue réutilisable lié aux cartes de la galerie.
+- `resources/`: matériel bilingue réutilisable lié aux cartes de la galerie, ainsi que des modèles complémentaires optionnels.
 - `contribution_template.md`: modèle de contribution bilingue en texte simple.
 - `.github/ISSUE_TEMPLATE/gallery-contribution.yml`: formulaire GitHub structuré pour les nouvelles contributions.
 - `CONTRIBUTING.md`: consignes de contribution en français et en anglais.
@@ -84,7 +84,7 @@ Merci de ne pas inclure de données étudiantes identifiables, de données confi
 
 ### Matériel réutilisable
 
-Chaque carte de la galerie mène à du matériel réutilisable dans `resources/`. Ces fichiers sont des points de départ, pas des politiques officielles. Adaptez-les au contexte de votre cours, aux règles d'évaluation, aux exigences de confidentialité et aux attentes institutionnelles.
+Chaque carte actuelle de la galerie mène à du matériel réutilisable dans `resources/`. Le dossier peut aussi contenir des modèles complémentaires qui ne sont pas affichés comme cartes de galerie. Ces fichiers sont des points de départ, pas des politiques officielles. Adaptez-les au contexte de votre cours, aux règles d'évaluation, aux exigences de confidentialité et aux attentes institutionnelles.
 
 ### État actuel
 
