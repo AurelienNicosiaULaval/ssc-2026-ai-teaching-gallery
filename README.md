@@ -22,6 +22,7 @@ Personalized workshop assistant:
 
 - `index.html`: the public gallery page.
 - `assets/`: styles and bilingual gallery data.
+- `talks/`: public HTML slide decks linked from selected gallery cards.
 - `resources/`: reusable bilingual material linked from the gallery cards, plus optional supporting templates.
 - `contribution_template.md`: plain-text bilingual contribution template.
 - `.github/ISSUE_TEMPLATE/gallery-contribution.yml`: structured GitHub form for new contributions.
@@ -40,7 +41,7 @@ Please do not include identifiable student data, confidential data, protected in
 
 ### Reuse Material
 
-Each current gallery card links to reusable material in `resources/`. The folder may also contain supporting templates that are not displayed as gallery cards. These files are starting points, not official policies. Adapt them to your course context, assessment rules, privacy requirements, and institutional expectations.
+Each current gallery card links to reusable material in `resources/` or to a public slide deck in `talks/`. These files are starting points, not official policies. Adapt them to your course context, assessment rules, privacy requirements, and institutional expectations.
 
 ### Current Status
 
@@ -66,6 +67,7 @@ Assistant personnalisé de l'atelier:
 
 - `index.html`: page publique de la galerie.
 - `assets/`: styles et données bilingues de la galerie.
+- `talks/`: diaporamas HTML publics liés à certaines cartes de la galerie.
 - `resources/`: matériel bilingue réutilisable lié aux cartes de la galerie, ainsi que des modèles complémentaires optionnels.
 - `contribution_template.md`: modèle de contribution bilingue en texte simple.
 - `.github/ISSUE_TEMPLATE/gallery-contribution.yml`: formulaire GitHub structuré pour les nouvelles contributions.
@@ -84,7 +86,7 @@ Merci de ne pas inclure de données étudiantes identifiables, de données confi
 
 ### Matériel réutilisable
 
-Chaque carte actuelle de la galerie mène à du matériel réutilisable dans `resources/`. Le dossier peut aussi contenir des modèles complémentaires qui ne sont pas affichés comme cartes de galerie. Ces fichiers sont des points de départ, pas des politiques officielles. Adaptez-les au contexte de votre cours, aux règles d'évaluation, aux exigences de confidentialité et aux attentes institutionnelles.
+Chaque carte actuelle de la galerie mène à du matériel réutilisable dans `resources/` ou à un diaporama public dans `talks/`. Ces fichiers sont des points de départ, pas des politiques officielles. Adaptez-les au contexte de votre cours, aux règles d'évaluation, aux exigences de confidentialité et aux attentes institutionnelles.
 
 ### État actuel
 
