@@ -120,45 +120,6 @@ const examples = [
       fr: "Aurélien Nicosia"
     },
     title: {
-      en: "Context management and custom course AI",
-      fr: "Gestion du contexte et IA personnalisée de cours"
-    },
-    idea: {
-      en: "A morning slide deck that explains how instructions, conversation context, knowledge files, course material, and the LLM work together in a custom AI assistant.",
-      fr: "Un diaporama du matin qui explique comment les directives, le contexte de conversation, les fichiers de connaissance, le matériel de cours et le LLM travaillent ensemble dans une IA personnalisée."
-    },
-    value: {
-      en: "It gives a visual mental model for course-specific AI and uses STT-4230, R for Scientists, as a concrete example.",
-      fr: "Il donne un modèle mental visuel pour les IA de cours et utilise STT-4230, R pour scientifiques, comme exemple concret."
-    },
-    adapt: {
-      en: "Reuse the deck to introduce personalized AI in a course or program. Replace the STT-4230 example with your own role, course resources, allowed help, and privacy boundaries.",
-      fr: "Réutiliser le diaporama pour introduire les IA personnalisées dans un cours ou un programme. Remplacer l'exemple STT-4230 par votre propre rôle, vos ressources de cours, l'aide permise et vos limites de confidentialité."
-    },
-    links: [
-      {
-        href: "talks/context_management_custom_ai.html",
-        label: {
-          en: "Open slide deck",
-          fr: "Ouvrir le diaporama"
-        }
-      },
-      {
-        href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/course-ai-instructions.md",
-        label: {
-          en: "View material",
-          fr: "Voir le matériel"
-        }
-      }
-    ]
-  },
-  {
-    category: "assistant",
-    author: {
-      en: "Aurélien Nicosia",
-      fr: "Aurélien Nicosia"
-    },
-    title: {
       en: "Course assistant for STT-4230",
       fr: "Assistant de cours pour STT-4230"
     },
@@ -175,6 +136,13 @@ const examples = [
       fr: "Adapter le rôle, le contenu du cours, l'aide permise, la base de connaissance et les limites d'évaluation à votre propre cours."
     },
     links: [
+      {
+        href: "talks/context_management_custom_ai.html",
+        label: {
+          en: "Open slide deck",
+          fr: "Ouvrir le diaporama"
+        }
+      },
       {
         href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/course-ai-instructions.md",
         label: {
@@ -205,52 +173,6 @@ const examples = [
       fr: "Aurélien Nicosia"
     },
     title: {
-      en: "Mandatory AI assessment and contextR",
-      fr: "Évaluation avec IA obligatoire et contextR"
-    },
-    idea: {
-      en: "A morning slide deck on an STT-4230 assignment where AI use was required, structured, and made visible through an R package workflow.",
-      fr: "Un diaporama du matin sur un devoir de STT-4230 où l'usage de l'IA était obligatoire, structuré et rendu visible par un flux de travail dans un package R."
-    },
-    value: {
-      en: "It shows how context, a real statistical function, dataset help, a user prompt, and an LLM can be connected through a `*_context()` function.",
-      fr: "Il montre comment le contexte, une vraie fonction statistique, l'aide associée au jeu de données, une consigne utilisateur et un LLM peuvent être reliés par une fonction `*_context()`."
-    },
-    adapt: {
-      en: "Use the deck to design a bounded AI-required assignment where students must disclose, verify, and explain the AI-supported part of the work.",
-      fr: "Utiliser le diaporama pour concevoir un devoir borné où l'IA est obligatoire et où les personnes étudiantes doivent déclarer, vérifier et expliquer la partie appuyée par l'IA."
-    },
-    links: [
-      {
-        href: "talks/mandatory_ai_assessment_contextR.html",
-        label: {
-          en: "Open slide deck",
-          fr: "Ouvrir le diaporama"
-        }
-      },
-      {
-        href: "https://github.com/AurelienNicosiaULaval/contextual-statistics-with-llm",
-        label: {
-          en: "View repository",
-          fr: "Voir le dépôt"
-        }
-      },
-      {
-        href: "https://jds-online.org/journal/JDS/article/1474/info",
-        label: {
-          en: "View article",
-          fr: "Voir l'article"
-        }
-      }
-    ]
-  },
-  {
-    category: "assessment",
-    author: {
-      en: "Aurélien Nicosia",
-      fr: "Aurélien Nicosia"
-    },
-    title: {
       en: "Mandatory AI use in a statistics assignment",
       fr: "Usage obligatoire de l'IA dans un devoir de statistique"
     },
@@ -267,6 +189,13 @@ const examples = [
       fr: "Reprendre le patron à plus petite échelle: rendre l'IA obligatoire pour une étape interprétative bornée, séparer le calcul du texte généré, puis évaluer la vérification, la déclaration et la confidentialité."
     },
     links: [
+      {
+        href: "talks/mandatory_ai_assessment_contextR.html",
+        label: {
+          en: "Open slide deck",
+          fr: "Ouvrir le diaporama"
+        }
+      },
       {
         href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/mandatory-ai-assignment-contextual-statistics.md",
         label: {
