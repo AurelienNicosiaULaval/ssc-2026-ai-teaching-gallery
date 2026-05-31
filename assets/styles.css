@@ -297,10 +297,35 @@ main {
   text-decoration: none;
 }
 
+.secondary-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  border: 1px solid rgba(154, 61, 79, 0.28);
+  border-radius: 8px;
+  background: #fff3f5;
+  color: var(--rose);
+  padding: 7px 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.primary-link:hover,
+.primary-link:focus-visible,
+.secondary-link:hover,
+.secondary-link:focus-visible {
+  outline: none;
+}
+
 .primary-link:hover,
 .primary-link:focus-visible {
   background: #174966;
-  outline: none;
+}
+
+.secondary-link:hover,
+.secondary-link:focus-visible {
+  border-color: var(--rose);
+  background: #ffffff;
 }
 
 .site-footer {
