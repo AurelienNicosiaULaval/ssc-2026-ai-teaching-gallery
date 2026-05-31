@@ -15,10 +15,10 @@ Linked from current gallery cards:
 - `workshop-gpt.md`: setup notes for a bilingual workshop or course assistant.
 - `course-ai-instructions.md`: concrete STT-4230 example and adaptable template for course-specific AI assistant instructions.
 - `mandatory-ai-assignment-contextual-statistics.md`: example of a statistics assignment where AI use is mandatory, structured, and assessed.
+- `ai-use-rule-assignment.md`: detailed bilingual guide for writing AI-use rules in assignments and assessments.
 
 Additional supporting templates:
 
-- `ai-use-rule-assignment.md`: template for an AI-use rule in a take-home data analysis assignment.
 - `prompt-to-verification-activity.md`: short activity for comparing and verifying AI outputs.
 
 <a id="francais"></a>
@@ -34,8 +34,8 @@ Lié aux cartes actuelles de la galerie:
 - `workshop-gpt.md`: notes de configuration pour un assistant bilingue d'atelier ou de cours.
 - `course-ai-instructions.md`: exemple concret STT-4230 et modèle adaptable pour une IA personnalisée de cours.
 - `mandatory-ai-assignment-contextual-statistics.md`: exemple de devoir de statistique où l'usage de l'IA est obligatoire, structuré et évalué.
+- `ai-use-rule-assignment.md`: guide bilingue détaillé pour rédiger des règles d'usage de l'IA dans les devoirs et évaluations.
 
 Modèles complémentaires:
 
-- `ai-use-rule-assignment.md`: modèle de règle d'usage de l'IA pour un devoir maison d'analyse de données.
 - `prompt-to-verification-activity.md`: courte activité pour comparer et vérifier des sorties d'IA.

@@ -218,6 +218,38 @@ const examples = [
         }
       }
     ]
+  },
+  {
+    category: "assessment",
+    author: {
+      en: "Workshop resource",
+      fr: "Ressource d'atelier"
+    },
+    title: {
+      en: "AI-use rules for assignments",
+      fr: "Règles d'usage de l'IA pour les devoirs"
+    },
+    idea: {
+      en: "A detailed bilingual guide for deciding, writing, and checking AI-use rules in assignments, projects, quizzes, and data analysis work.",
+      fr: "Un guide bilingue détaillé pour décider, rédiger et vérifier les règles d'usage de l'IA dans les devoirs, projets, quiz et travaux d'analyse."
+    },
+    value: {
+      en: "It helps instructors move from vague permission or prohibition to an observable rule: what is allowed, what must be disclosed, what remains student work, and what will be assessed.",
+      fr: "Il aide à passer d'une permission ou interdiction vague à une règle observable: ce qui est permis, ce qui doit être déclaré, ce qui reste le travail étudiant et ce qui sera évalué."
+    },
+    adapt: {
+      en: "Start from the continuum and templates, then adapt the wording to the learning objective, class size, institutional rules, and available grading time.",
+      fr: "Partir du continuum et des modèles, puis adapter la formulation à l'objectif d'apprentissage, la taille du groupe, les règles institutionnelles et le temps de correction disponible."
+    },
+    links: [
+      {
+        href: "https://github.com/AurelienNicosiaULaval/ssc-2026-ai-teaching-gallery/blob/main/resources/ai-use-rule-assignment.md",
+        label: {
+          en: "View detailed guide",
+          fr: "Voir le guide détaillé"
+        }
+      }
+    ]
   }
 ];
 
